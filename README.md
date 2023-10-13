@@ -1,8 +1,8 @@
 ## There are two versions of login forms
 
-## Form1 uses state to handle loading and errors and a form to handle user input for validation and request : src/components/forms/Form1
+## Form1 uses state to handle loading and errors and an HTML form to handle user input for validation and request : src/components/forms/Form1
 
-## Form2 uses state to manage loading and errors as well as all user input for valiation and request : src/components/forms/Form2
+## Form2 uses state to manage loading and errors as well as all user input for validation and request : src/components/forms/Form2
 
 
 ## Form1 is the deafault
