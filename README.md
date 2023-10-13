@@ -5,7 +5,7 @@
 ## Form2 uses state to manage loading and errors as well as all user input for validation and request : src/components/forms/Form2
 
 
-## Form1 is the deafault
+## Form1 is the default
 ## To render Form2 instead, navigate to src/components/forms/Login.js and uncomment Form2
 
 to get started
