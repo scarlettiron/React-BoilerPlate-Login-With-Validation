@@ -1,0 +1,44 @@
+@import '../App.css';
+
+.btn-primary{
+    background-image: linear-gradient(to right, var(--theme-secondary), var(--fade-theme-secondary), var(--fade-theme), var(--theme-primary));
+    border-radius: 20px;
+    padding:5px;
+    margin:10px;
+    outline:none;
+    text-decoration: none;
+    border:none;
+    color:var(--text-primary);
+    font-size: larger;
+    font-weight: 500;
+    width:100%;
+}
+
+.btn-primary:focus{
+    border:solid 1px var(--theme-secondary);
+    flex-grow: 3;
+}
+.btn-primary:hover{
+    background-color:solid 1px var(--theme-secondary);
+    flex-grow: 3;
+    cursor: pointer;
+}
+
+
+.input-primary{
+    background-color: (236, 237, 238);
+    border-radius: 50px;
+    border:none;
+    outline:none;
+    padding:5px;
+    font-size: larger;
+    width:100%;
+    margin: 10px;
+}
+
+
+
+.input-primary.error{
+    border:solid 2px var(--alert-primary);
+}
+
