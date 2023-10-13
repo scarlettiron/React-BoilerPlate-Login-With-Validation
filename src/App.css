@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+:root{
+  --background: rgb(52, 53, 61);
+  --background-secondary:rgb(109, 110, 114);
+  --theme-primary: rgb(187, 0, 255);
+  --theme-secondary: rgb(60, 17, 189);
+  --fade-theme:rgb(123, 0, 255); 
+  --fade-theme-secondary:rgb(88, 10, 191);
+  --text-primary:rgb(232, 231, 234);
+  --text-muted:rgb(128, 128, 128);
+  --alert-primary: rgb(111, 6, 25);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: var(--background);
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Normally these would be in a separate file */
+
+.w-75{
+  width:75%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.w-100{
+  width:100%
+}
+
+.h-100{
+  height:100%;
+}
+
+.justify-content-center{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.justify-content-space-around{
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+
+.text-primary{
+  color:var(--text-primary);
+}
+
+.text-muted{
+  color:var(--text-muted);
 }

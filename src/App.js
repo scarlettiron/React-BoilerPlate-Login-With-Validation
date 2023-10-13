@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from './components/forms/Login';
+// Normally I try to structure my applications in a way that is
+// easily navigated and scalable
+
+// There are two versions of login forms
+// Form1 uses state to handle loading and errors, but a form to
+// handle inputs
+// Form2 uses state to manage loading and errors as well as all 
+// inputs
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Login/> 
     </div>
   );
 }
