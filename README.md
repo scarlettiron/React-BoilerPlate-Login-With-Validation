@@ -12,6 +12,8 @@ to get started
 
 ### `git clone https://github.com/scarlettiron/React-BoilerPlate-Login-With-Validation.git`
 
+### `cd React-BoilerPlate-Login-With-Validation`
+
 ### `npm start`
 
 
