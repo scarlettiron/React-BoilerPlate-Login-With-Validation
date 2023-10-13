@@ -14,10 +14,20 @@
     width:100%;
 }
 
-.btn-primary:focus{
-    border:solid 1px var(--theme-secondary);
-    flex-grow: 3;
+.btn-primary:hover{
+    box-shadow: inset 0 0 0 2em var(--theme-primary);
 }
+
+.btn-primary:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--theme-primary); }
+}
+
+
 .btn-primary:hover{
     background-color:solid 1px var(--theme-secondary);
     flex-grow: 3;

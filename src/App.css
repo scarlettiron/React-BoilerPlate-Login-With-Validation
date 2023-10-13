@@ -1,5 +1,5 @@
 :root{
-  --background: rgb(52, 53, 61);
+  --background: rgb(44, 43, 61);
   --background-secondary:rgb(109, 110, 114);
   --theme-primary: rgb(187, 0, 255);
   --theme-secondary: rgb(60, 17, 189);
@@ -7,7 +7,7 @@
   --fade-theme-secondary:rgb(88, 10, 191);
   --text-primary:rgb(232, 231, 234);
   --text-muted:rgb(128, 128, 128);
-  --alert-primary: rgb(111, 6, 25);
+  --alert-primary: rgb(164, 5, 5);
   
 }
 
